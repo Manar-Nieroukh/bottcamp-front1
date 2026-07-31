@@ -22,6 +22,9 @@ margin: auto;
  .header{
    padding: 31.84px 0; 
  }
+ .header .row{
+   justify-content: space-between;
+ }
  .list ul{
     display: flex;
     gap:60px;
@@ -39,7 +42,7 @@ margin: auto;
 }
 
  /*media qurey */
- @media screen and (min-Width:320px)and (max-width:600px){
+ @media screen and (min-Width:320px)and (max-width:991px){
    .container{
       width: calc(100% -40px);
    }
@@ -56,4 +59,17 @@ margin: auto;
    .menu{
       display: block;
    }
+   .collection .row{
+      gap: 30px;
+   }
+   .collection{
+      text-align: center;
+      width: calc( (100% - 30px) / 4 );
+   }
+   .collection img{
+      width: 100%;
+   }
+
+
+
  }
