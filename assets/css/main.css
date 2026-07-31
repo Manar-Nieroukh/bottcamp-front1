@@ -46,10 +46,6 @@ margin: auto;
    .container{
       width: calc(100% -40px);
    }
-
-   body{
-      background-color: teal;
-   }
    .list{
       display: none;
    }
@@ -59,7 +55,9 @@ margin: auto;
    .menu{
       display: block;
    }
-   .collection .row{
+
+ }
+  .collection .row{
       gap: 30px;
    }
    .collection{
@@ -70,6 +68,18 @@ margin: auto;
       width: 100%;
    }
 
-
-
+   /*media qurey */
+ @media screen and (min-Width:600px)and (max-width:991px){
+  
+   .collection{
+      width: calc ((100% -30px) / 2);
+   }
+}
+ @media screen and (min-Width:310px)and (max-width:599px){
+.collection{
+      width: 100%;
+   }
  }
+
+
+   
