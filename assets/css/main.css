@@ -75,11 +75,20 @@ margin: auto;
       width: calc ((100% -30px) / 2);
    }
 }
- @media screen and (min-Width:310px)and (max-width:599px){
+ @media screen and (min-Width:320px)and (max-width:599px){
 .collection{
       width: 100%;
    }
  }
+
+ .section-title {
+    text-align: center;        
+    font-size: 24px;            
+    letter-spacing: 2px;
+    margin-top: 60px;              
+    margin-bottom: 40px;      
+    color: #3A3845;
+}
 
 
    
