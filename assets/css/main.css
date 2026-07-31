@@ -33,5 +33,27 @@ margin: auto;
  .icons ul{
     display: flex;
     gap:24px;
+ }
+.menu{
+   display: none;
+}
 
+ /*media qurey */
+ @media screen and (min-Width:320px)and (max-width:600px){
+   .container{
+      width: calc(100% -40px);
+   }
+
+   body{
+      background-color: teal;
+   }
+   .list{
+      display: none;
+   }
+   .icon_hidden{
+      display: none;
+   }
+   .menu{
+      display: block;
+   }
  }
