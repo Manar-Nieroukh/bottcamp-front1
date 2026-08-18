@@ -22,6 +22,41 @@ margin: auto;
  .header{
    padding: 31.84px 0; 
  }
+
+ .main-banner{
+
+    width: 100%;
+
+}
+
+.main-banner .row{
+
+    align-items: stretch;
+
+}
+
+.main-banner-shop{
+
+    width: 30%;
+
+}
+
+.main-banner-picture{
+
+    width: 70%;
+
+}
+
+.main-banner img{
+
+    width: 100%;
+
+    height: 100%;
+
+    display: block;
+
+}
+
  .header .row{
    justify-content: space-between;
  }
