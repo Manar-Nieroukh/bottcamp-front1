@@ -83,8 +83,12 @@ ul{
       display: block;
    }
    .main-banner .row{
-      flex-direction: column-reverse;
-      gap: 20px;
+      display: flex;
+      flex-direction: column-reverse; 
+      justify-content: flex-start;
+      gap: 0;
+      width: 100%;
+      max-width: 100%;
    }
    .main-banner-shop{
       width: 100%;
@@ -94,7 +98,9 @@ ul{
       width: 100%;
    }
    .main-banner img {
+      width: 100%;
       height: auto;
+      display: block;
     }
    
  }
@@ -111,11 +117,11 @@ ul{
 
    /* media qurey */
  @media screen and (min-Width:600px)and (max-width:991px){
-  
    .collection{
       width: calc((100% - 30px) / 2);
    }
 }
+
  @media screen and (min-Width:320px)and (max-width:599px){
 .collection{
    width: 100%;
